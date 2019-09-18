@@ -1,0 +1,26 @@
+.Pokecard { max-width: 350px; min-width: 250px; padding: 20px 15px 30px 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 20px; border-radius: 8px; -webkit-box-shadow: 0px 5px 25px -5px #ececec; box-shadow: 0px 5px 25px -5px #ececec; -webkit-transition: 0.4s ease-in-out; transition: 0.4s ease-in-out; position: relative; overflow: hidden; }
+.Pokecard:hover { -webkit-box-shadow: 0px 5px 25px -5px #b9b9b9; box-shadow: 0px 5px 25px -5px #b9b9b9; }
+.Pokecard .exp { position: absolute; top: 10px; right: 10px; }
+.Pokecard h1:not(.decoration) { opacity: 0.9; }
+.Pokecard h1.decoration { position: absolute; left: 50%; -webkit-transform: translate(-50%, -10%); transform: translate(-50%, -10%); top: 50%; margin: 0px; font-size: 4rem; opacity: 0.8; mix-blend-mode: soft-light; z-index: 100; }
+.Pokecard img { position: relative; z-index: 110; min-width: 100px; }
+
+.fire-type { background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); }
+
+.water-type { background-image: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#005bea)); background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); }
+
+.grass-type { background-image: -webkit-gradient(linear, left bottom, left top, from(#0ba360), to(#3cba92)); background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); }
+
+.bug-type { background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+
+.flying-type { background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%); }
+
+.electric-type { background: radial-gradient(#fdffc4, #ffe265); }
+
+.ground-type { background-image: -webkit-gradient(linear, left bottom, left top, from(#e6b980), to(#eacda3)); background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%); }
+
+.normal-type { background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.02) 61%, rgba(0, 0, 0, 0.02) 73%), linear-gradient(33deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%); background-blend-mode: normal,color-burn; }
+
+.poison-type { background-image: -webkit-gradient(linear, left bottom, left top, from(#5f72bd), to(#9b23ea)); background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%); }
+
+/*# sourceMappingURL=Pokecard.css.map */

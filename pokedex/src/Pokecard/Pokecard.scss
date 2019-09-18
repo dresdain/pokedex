@@ -1,0 +1,72 @@
+.Pokecard{
+    // border: 1px solid red;
+    max-width: 350px;
+    min-width: 250px;
+    padding: 20px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 5px 25px -5px #ececec;
+    transition: 0.4s ease-in-out;
+    &:hover{
+        box-shadow: 0px 5px 25px -5px darken(#ececec, 20%);
+    }
+    position: relative;
+    overflow: hidden;
+    .exp{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    h1:not(.decoration){
+        opacity: 0.9;
+    }
+    h1.decoration{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        top: 50%;
+        margin: 0px;
+        font-size: 4rem;
+        opacity: 0.8;
+        mix-blend-mode: soft-light;
+        z-index: 100;
+    }
+    img{
+        position: relative;
+        z-index: 110;
+        min-width: 100px;
+    }
+}
+
+.fire-type{
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+.water-type{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+.grass-type{
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); 
+}
+.bug-type{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.flying-type{
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+.electric-type{
+    background: radial-gradient(rgb(253, 255, 196), rgb(255, 226, 101));
+}
+.ground-type{
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+.normal-type{
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+}
+.poison-type{
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+}
