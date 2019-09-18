@@ -30,7 +30,8 @@
         transform: translate(-50%, -10%);
         top: 50%;
         margin: 0px;
-        font-size: 4rem;
+        font-size: 3rem;
+        letter-spacing: 8px;
         opacity: 0.8;
         mix-blend-mode: soft-light;
         z-index: 100;
@@ -38,7 +39,7 @@
     img{
         position: relative;
         z-index: 110;
-        min-width: 100px;
+        max-width: 120px;
     }
 }
 
